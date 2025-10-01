@@ -5,6 +5,7 @@
 *.db
 *.sqlite
 *.sqlite3
+instance/
 
 # Archivos de Python
 __pycache__/
@@ -17,3 +18,8 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Archivos de prueba
+test_*.html
+test_*.py
+*_test.py
