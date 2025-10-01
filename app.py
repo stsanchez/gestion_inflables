@@ -10,7 +10,7 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'tu-clave-secreta-aqui'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:TU_PASSWORD_AQUI@localhost:5432/inflables_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Admin1234@localhost:5432/inflables_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['UPLOAD_FOLDER'] = 'static/img'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
